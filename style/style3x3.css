@@ -1,0 +1,32 @@
+#instructions{
+    text-align: center;
+    color: #ff0000;
+    background-color: #00eeff;
+    margin: auto;
+    width: fit-content;
+    border: 5px solid black;
+}
+#box{
+    display: table;
+    border: 1px solid #000000;
+}
+#row1,#row2,#row0{
+    display: table-row;
+}
+.tile0,.tile1,.tile2,.tile3,.tile4,.tile5,.tile6,.tile7,.tile8{
+    display: table-cell;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+#reset{
+    margin: 0 auto;
+    width: 125px;
+    height: 30px;
+    background-color: #00ffae;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #8c8c8c;
+}
+#Box{
+    display: table;
+    border: 1px solid #000000;
+}
+#Row1,#Row2,#Row0,#Row3,#Row4{
+    display: table-row;
+}
+.Tile0,.Tile1,.Tile2,.Tile3,.Tile4,.Tile5,.Tile6,.Tile7,.Tile8,.Tile9,.Tile10,.Tile11,.Tile12,.Tile13,.Tile14,.Tile15,.Tile16,.Tile17,.Tile18,.Tile19,.Tile20,.Tile21,.Tile22,.Tile23,.Tile24{
+    display: table-cell;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #000000;
+    background-color: white;
+    cursor: pointer;
+}
+#Cell11,#Cell12,#Cell13,#Cell21,#Cell22,#Cell23,#Cell31,#Cell32,#Cell33{
+    border: 5px solid white;
+}
+.moves,.timer{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    background-color: #ffe991;
+    font-size: large;
+    border: 2px solid black;
+  
+}

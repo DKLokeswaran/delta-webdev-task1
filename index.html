@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Delta Webdev Task-1</title>
+        <link href="style/style3x3.css" rel="stylesheet">
+        <link href="style/5x5box.css" rel="stylesheet">
+    </head>
+    <body>
+
+
+       <h1 id="instructions">Match the given pattern below</h1>
+
+       <p></p>
+
+       <center>
+       <div id="box">
+           <div id="row0">
+               <div id="cell00" class="tile0"></div>
+               <div id="cell01" class="tile1"></div>
+               <div id="cell02" class="tile2"></div>
+           </div>
+           <div id="row1">
+               <div id="cell10" class="tile3"></div>
+               <div id="cell11" class="tile4"></div>
+               <div id="cell12" class="tile5"></div>
+           </div>
+           <div id="row2">
+               <div id="cell20" class="tile6"></div>
+               <div id="cell21" class="tile7"></div>
+               <div id="cell22" class="tile8"></div>
+           </div>
+       </div>
+       </center>
+
+       <p></p>
+       <p id="time" class="timer">Time Elapsed: 00:00:00</p>
+       <p></p>
+       <p class="moves" id="noOfMoves">No of moves made: 0</p>
+       <p></p>
+
+       <center>
+        <div id="Box">
+            <div id="Row0">
+                <div id="Cell00" class="Tile0" onclick="Clicker(0,0);"></div>
+                <div id="Cell01" class="Tile1" onclick="Clicker(0,1);"></div>
+                <div id="Cell02" class="Tile2" onclick="Clicker(0,2);"></div>
+                <div id="Cell03" class="Tile3" onclick="Clicker(0,3);"></div>
+                <div id="Cell04" class="Tile4" onclick="Clicker(0,4);"></div>
+            </div>
+            <div id="Row1">
+                <div id="Cell10" class="Tile5" onclick="Clicker(1,0);"></div>
+                <div id="Cell11" class="Tile6" onclick="Clicker(1,1);"></div>
+                <div id="Cell12" class="Tile7" onclick="Clicker(1,2);"></div>
+                <div id="Cell13" class="Tile8" onclick="Clicker(1,3);"></div>
+                <div id="Cell14" class="Tile9" onclick="Clicker(1,4);"></div>
+            </div>
+            <div id="Row2">
+                <div id="Cell20" class="Tile10" onclick="Clicker(2,0);"></div>
+                <div id="Cell21" class="Tile11" onclick="Clicker(2,1);"></div>
+                <div id="Cell22" class="Tile12" onclick="Clicker(2,2);"></div>
+                <div id="Cell23" class="Tile13" onclick="Clicker(2,3);"></div>
+                <div id="Cell24" class="Tile14" onclick="Clicker(2,4);"></div>
+            </div>
+            <div id="Row3">
+                <div id="Cell30" class="Tile15" onclick="Clicker(3,0);"></div>
+                <div id="Cell31" class="Tile16" onclick="Clicker(3,1);"></div>
+                <div id="Cell32" class="Tile17" onclick="Clicker(3,2);"></div>
+                <div id="Cell33" class="Tile18" onclick="Clicker(3,3);"></div>
+                <div id="Cell34" class="Tile19" onclick="Clicker(3,4);"></div>
+            </div>
+            <div id="Row4">
+                <div id="Cell40" class="Tile20" onclick="Clicker(4,0);"></div>
+                <div id="Cell41" class="Tile21" onclick="Clicker(4,1);"></div>
+                <div id="Cell42" class="Tile22" onclick="Clicker(4,2);"></div>
+                <div id="Cell43" class="Tile23" onclick="Clicker(4,3);"></div>
+                <div id="Cell44" class="Tile24" onclick="Clicker(4,4);"></div>
+            </div>
+        </div>
+        </center>
+
+       
+       
+       
+       
+       <center><button id="reset" onclick="setColour();">Start/Reset</button></center>
+       <script src="script/3x3box.js"></script>
+       <script src="script/5x5box.js"></script>
+       <script src="script/game.js"></script>
+       <script src="script/extra.js"></script>
+    </body>
+</html>
